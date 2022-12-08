@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PAI DO ELOJOB</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
@@ -48,7 +48,8 @@
                                                 <p> lol boost</p>
                                             </div>
                                             <div class="bgk-itemDrop lol"></div>
-                                            <li class="item-drop "><a class="dropdown-item "><span
+                                            <li class="item-drop "><a class="dropdown-item "
+                                                    href="{{ route('compra', ['leagueoflegends','eloboost']) }}"><span
                                                         class="icone-imteDrop"><i
                                                             class="fa-solid fa-circle-up"></i></span>Elo boost</a></li>
                                             <li class="item-drop "><a class="dropdown-item "><span
@@ -841,16 +842,14 @@
                     <div class="container cont-footer">
                         <div class="row">
                             <div class="col-lg-5">
-                                <div class="body-logo pay"><img
-                                        src= "/Img/logo/logo.png"
-                                        alt="logo do site" class="logo"></div>
+                                <div class="body-logo pay"><img src="/Img/logo/logo.png" alt="logo do site"
+                                        class="logo"></div>
                                 <div class="texto">
                                     <p class="paragrafo"><strong>O PAI DO ELO JOB</strong>, preza sempre por serviços
                                         rápidos e discretos, mantendo nossa transparência e responsabilidade com nossos
                                         clientes. </p>
                                 </div>
-                                <div class="body-payment"><img
-                                        src="/img/cards/payment-methods.webp"
+                                <div class="body-payment"><img src="/img/cards/payment-methods.webp"
                                         alt="formas de pagamento" class="payment img-fluid"></div>
                             </div>
                             <div class="col-lg-7 serv">

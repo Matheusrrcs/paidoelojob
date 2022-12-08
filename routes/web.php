@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\Comprar;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,8 +15,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
- 
-
- 
+Route::get('/compra/{jogo}/{tipo}',[Comprar::class,'index'])->name('compra');
